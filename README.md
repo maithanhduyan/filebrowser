@@ -37,3 +37,20 @@ For installation instructions please refer to our docs at [https://filebrowser.o
 ## Contributing
 
 If you're interested in contributing to this project, our docs are best places to start [https://filebrowser.org/contributing](https://filebrowser.org/contributing).
+
+## Run Backend Server
+> go mod download
+> go build
+> filebrowser
+
+## Run Fontend Server
+From the root of the repo, go to frontend/
+>cd frontend
+- Install the dependencies
+>npm install
+- Build the frontend
+>npm run build
+- Run app
+>npm run dev
+
+Server run at: http://localhost:5173/
